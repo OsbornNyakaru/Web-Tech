@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osborn's Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 5px;
+            padding: 5px;
+            scroll-behavior: smooth;
+            background: #002895;
+            font-style: 'Poppins', sans-serif;
+        }
+    
+        header {
+            background-color: rgb(62, 63, 69);
+            padding: 20px;
+            margin: 12px;
+            color: white;
+            text-align: center;
+            border-radius: 15px;
+        }
+        
+        section {
+            background-color: #002895;
+            padding: 30px;
+            margin: 20px 0;
+            border: 2px solid gray;
+            border-radius: 20px;
+            color: white;
+        }       
+        .skills {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .skills li {
+            border: 2px solid orangered;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        .contact {
+            background-color: rgb(62, 63, 69);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        a i {
+            font-size: 2.5rem;
+            color: orangered;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            header {
+                padding: 10px;
+            }
+            
+            section {
+                padding: 20px;
+            }
+            
+            .skills li {
+                padding: 5px;
+            }
+            
+            .contact {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OSBORN's Portfolio</h1>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>Hello, I'm Osborn, a student at PLP designing a page for the previous class.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>Natural Language Processing</li>
+            <li>Machine Learning</li>
+            <li>Web Development</li>
+            <li>Artificial Intelligence</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: osborn@example.com</p>
+        <p>Social Media: <a href="#"><i class='bx bxl-twitter'></i></a>, <a href="#"><i class='bx bxl-linkedin' ></i></a></p>
+    </section>
+</body>
+</html>
